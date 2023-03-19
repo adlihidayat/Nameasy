@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nameasy/static/css/main.3ac49590.css",
+    "main.js": "/Nameasy/static/js/main.410f4a77.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Nameasy/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Nameasy/index.html",
+    "main.3ac49590.css.map": "/Nameasy/static/css/main.3ac49590.css.map",
+    "main.410f4a77.js.map": "/Nameasy/static/js/main.410f4a77.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Nameasy/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ac49590.css",
+    "static/js/main.410f4a77.js"
+  ]
+}
