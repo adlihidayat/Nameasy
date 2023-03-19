@@ -1,0 +1,17 @@
+.App {
+  background-color: #000000ee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.815);
+  text-align: center;
+  font-size: 4vw;
+}
+@media only screen and (max-width: 1400px) {
+  .App {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,83 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-left: 100px;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 2%;
+  background-color: rgb(44, 39, 39);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+}
+
+button {
+  padding: 2.5%;
+  border: none;
+  background-color: rgb(35, 104, 196);
+  color: rgb(255, 255, 255);
+  margin-left: 2%;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.output-item {
+  background-color: #272323;
+  margin: 2%;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2% 3% 2.5%;
+  font-size: 30px;
+}
+.output-item:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.copy-status {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 75%;
+  transition: all 0.3s ease-in-out;
+}
+.copy-status p {
+  background-color: rgb(95, 32, 85);
+  display: inline-block;
+  padding: 1% 2% 2%;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  input {
+    font-size: 100%;
+  }
+  button {
+    font-size: 90%;
+  }
+  .output-item {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  main {
+    margin-top: 20%;
+    margin-left: 0px;
+  }
+}
